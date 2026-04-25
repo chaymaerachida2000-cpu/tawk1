@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;             /* Kay-ch3el flexbox */
+    justify-content: center;   /* Kay-jib l-box l-wast (mn l-imin l-issar) */
+    align-items: center;       /* Kay-jib l-box l-wast (mn l-foq l-taht) */
+    min-height: 100vh;        /* Darori: Bach y-akhod l-tool dyal l-écran kamel */
+    background-color: rgb(155, 107, 11);
+}
+.flex-iteam{
+    padding: 30px;  
+    justify-content: center; 
+
+   border: 4px solid black;  
+  border-radius: 30px;
+    background: cornsilk;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.flex-iteam button {
+    background-color:green ;
+    color : black;
+    padding: 3px;
+}
+/* Zid l-khit f s-smiya dyal l-ID */
+#new-text {
+    min-width: 100px;
+    min-height: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+   
+}
